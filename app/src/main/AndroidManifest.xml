@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.E14"
+        tools:targetApi="31">
+        <activity
+            android:name=".trau2"
+            android:exported="false"
+            android:label="@string/title_activity_trau2"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".V2"
+            android:exported="false"
+            android:label="@string/title_activity_v2"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".war"
+            android:exported="false"
+            android:label="@string/title_activity_war"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".Tsu2"
+            android:exported="false"
+            android:label="@string/title_activity_tsu2"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".Tsunami"
+            android:exported="false"
+            android:label="@string/title_activity_tsunami"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".Trauma"
+            android:exported="false"
+            android:label="@string/title_activity_trauma"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".w2"
+            android:exported="false"
+            android:label="@string/title_activity_w2"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".d2"
+            android:exported="false"
+            android:label="@string/title_activity_d2"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".f2"
+            android:exported="false"
+            android:label="@string/title_activity_f2"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".e2"
+            android:exported="false"
+            android:label="@string/title_activity_e2"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".t2"
+            android:exported="false"
+            android:label="@string/title_activity_t2"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".nac"
+            android:exported="false"
+            android:label="@string/title_activity_nac"
+            android:theme="@style/Theme.E14.NoActionBar" />
+        <activity
+            android:name=".torn"
+            android:exported="false"
+            android:label="@string/title_activity_tornado2"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".tornado_scroll"
+            android:exported="false"
+            android:label="@string/title_activity_tornado_scroll"
+            android:theme="@style/Theme.E14.NoActionBar" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Droght"
+            android:exported="false"
+            android:label="@string/title_activity_droght"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".wildfire"
+            android:exported="false"
+            android:label="@string/title_activity_wildfire"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".flood"
+            android:exported="false"
+            android:label="@string/title_activity_flood"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".earthquake"
+            android:exported="false"
+            android:label="@string/title_activity_earthquake"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".tornado"
+            android:exported="false"
+            android:label="@string/title_activity_tornado"
+            android:theme="@style/Theme.E14" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.E14">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
